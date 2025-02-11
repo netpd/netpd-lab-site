@@ -433,13 +433,13 @@
   
 
   <section class="background" data-size="page">
-    <h2 id="-page-not-found">
-<i class="icon fa-solid fa-heart-crack"></i> Page Not Found</h2>
+    <h2 id="-404-page-not-found">
+<i class="icon fa-solid fa-heart-crack"></i> 404: Page Not Found</h2>
 
-<p class="center">Try searching the whole site for the content you want:</p>
+<p>Our LLMs couldn’t generate a better excuse, sorry about that. In the meantime, why not go back to our <a href="/">homepage</a> or try searching the whole site for the content you’d like to see instead?</p>
 
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google">
+<form onsubmit="onSiteSearchSubmit(event)" autocomplete="off" class="center">
+  <input type="text" name="query" placeholder="Search site (with DuckDuckGo)">
   <button type="submit" class="button" aria-label="search site">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
