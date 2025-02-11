@@ -1,5 +1,8 @@
 <!-- Fonts (all CSS files in fonts directory) -->
-{% assign fonts = site.static_files | where_exp: "file", "file.path contains '/_fonts'" %}
-{% for font in fonts %}
-  <script src="{{ font.path | relative_url }}"></script>
+{% assign fonts = site.static_files
+  | where_exp: "file",
+    "file.path contains '/_fonts' and file.path contains '.css'"
+%}
+{% for style in styles %}
+  <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
