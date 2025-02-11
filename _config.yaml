@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: Network Performance and Design Lab
-subtitle: Test Subtitle
+subtitle:
 description: Something nice goes here
 header: images/background.jpg
 footer: images/background.jpg

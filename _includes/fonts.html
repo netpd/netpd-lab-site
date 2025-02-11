@@ -3,6 +3,6 @@
   | where_exp: "file",
     "file.path contains '/_fonts' and file.path contains '.css'"
 %}
-{% for style in styles %}
-  <link href="{{ style.path | relative_url }}" rel="stylesheet" />
+{% for font in fonts %}
+  <link href="{{ font.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
