@@ -5,6 +5,6 @@
 
   # netpd's Website
 
-  Visit **[netpd.github.io/netpd-lab-site](https://netpd.github.io/netpd-lab-site)** 🚀
+  Visit **[netpd.github.io](https://netpd.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
